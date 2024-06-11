@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Header index*/
 .headerIndex {
     background-color: #F1C8C5;
     display: flex;
@@ -13,21 +14,29 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
 }
 .navBar{
     display: flex;
     list-style: none;
     gap: 1.25rem;
     padding-right:1.25rem ;
-    text-decoration: none;
 }
+.navBar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.875rem;
+}
+.buscador{
+    margin-right: 40px;
+}
+/* main index */
 .mainIndex{
-    background-color: #D8A4A4;
+    width: 100%;
+    height: auto;
     background-image: url(../assets/img/fondoindex1.jpg);
     background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
 }
 h1 {
     text-align: center;
@@ -38,38 +47,91 @@ h1 {
     font-family: "Nunito" serif;
     font-weight: 900;
 }
+/* footer index*/
 .footerIndex{
     background-color: #F1C8C5;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+.fontFooter a{
+    text-decoration: none;
+    color: black;
+}
+/* header Tortas*/
 .headerTortas {
     background-color: #D0A78F;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
 }
 .mainTortas{
     background-color: #A3725D;
 }
 .footerTortas{
     background-color: #D0A78F;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+/* header Donas */
 .headerDonas {
     background-color: #9BEBDC;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
 }
 .mainDonas{
     background-color:#54B59E;
 }
 .footerDonas{
     background-color: #9BEBDC;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+/* header Tartas*/
 .headerTartas {
     background-color: #CF99FA;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
 }
 .mainTartas{
     background-color: #855BE0;
 }
 .footerTartas{
-background-color: #CF99FA;
+    background-color: #CF99FA;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+/* HEader Nosotros*/
 .headerNosotros {
     background-color: #C1E9FF;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
 }
 .mainNosotros{
     background-color: #7CC2EA;
@@ -85,4 +147,9 @@ header{
 }
 .footerNosotros{
     background-color: #C1E9FF;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
