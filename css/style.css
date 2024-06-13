@@ -124,12 +124,15 @@
 h1 {
     text-align: center;
     font-family: "Roboto", serif;
-    font-size: 40px;
-
+    font-size: 80px;
+    color: rgb(253, 238, 29);
 }
+
 .sectionFont p{
     font-family: "Nunito" serif;
     font-weight: 900;
+    font-size: 30px;
+    color: rgb(253, 238, 29);
 }
 /* footer index*/
 .footerIndex{
@@ -154,6 +157,9 @@ h1 {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+}
+.h1Tortas{
+    color: black;
 }
 .gridTortas{
     display: grid;
@@ -295,3 +301,4 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+@media(max)
