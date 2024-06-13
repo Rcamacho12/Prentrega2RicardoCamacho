@@ -160,6 +160,7 @@ h1 {
     min-height: 100vh;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr;
+    align-items: center;
 }
 .gridTortas.item1Tortas{
     grid-column: 1/2;
@@ -169,7 +170,13 @@ h1 {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.gridTortas .item3Tortas{
+.mainImgTortas{
+    margin: auto;
+}
+.imagenTorta{
+    border-radius: 50%;
+}
+/* .gridTortas .item3Tortas{
     grid-column: 3/4;
     grid-row: 1/2;
 }
@@ -187,14 +194,20 @@ h1 {
 }
 .gridTortas .item7Tortas{
     grid-column: 3/4;
+    grid-row: 1/2; 
+}*/
+
+.subGridTortas{
+    grid-column: 3/4;
     grid-row: 1/2;
-}
-.subGridTOrtas{
     display: grid;
     min-height: 100vh;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
 }
+
 .mainTortas{
     background-color: #A3725D;
 }
@@ -206,7 +219,10 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
+.cuadradoTortas{
+    border-radius: 25%;
+    width: 150px;
+}
 /* header Donas */
 .headerDonas {
     background-color: #9BEBDC;
