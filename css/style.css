@@ -139,7 +139,7 @@
     background-color: #F1C8C5;
     display: flex;
     width: 100%;
-    height: auto;
+    min-height: auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -412,7 +412,26 @@ header{
         flex-direction: column;
     }
     .footerIndex{
-        display: flex;
-        flex-direction: column;
+        margin: auto;
+        flex-direction:row;
+        align-items: center;
+        
+    }
+}
+@media(max-width: 370px){
+    .h1Index {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    .sectionFont p{
+        font-weight: 200;
+        font-size: 10px;
+        color:  rgb(0, 0, 0);
+    }
+    .fontFooter img{
+        width: 15px;
+    }
+    .imgRedes img{
+        width: 15px;
     }
 }
